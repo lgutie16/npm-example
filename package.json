@@ -18,7 +18,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "keywords": ["example", "logger", "hello world"],
+  "keywords": [
+    "example",
+    "logger",
+    "hello world"
+  ],
   "author": "David Sttivend A",
   "license": "MIT",
   "devDependencies": {
