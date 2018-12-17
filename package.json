@@ -1,15 +1,26 @@
 {
   "name": "npm-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an example on how to publish a public package to npm registry",
   "main": "index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidsa/npm-example.git"
+  },
+  "homepage": "https://github.com/davidsa/npm-example",
+  "bugs": {
+    "url": "https://github.com/davidsa/npm-example/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["example", "logger", "hello world"],
+  "author": "David Sttivend A",
+  "license": "MIT",
   "devDependencies": {
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
