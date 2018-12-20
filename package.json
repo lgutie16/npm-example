@@ -1,5 +1,5 @@
 {
-  "name": "npm-example",
+  "name": "npm-example-david",
   "version": "1.0.0",
   "description": "This is an example on how to publish a public package to npm registry",
   "main": "dist/bundle.js",
