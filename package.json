@@ -2,9 +2,9 @@
   "name": "npm-example",
   "version": "1.0.0",
   "description": "This is an example on how to publish a public package to npm registry",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "files": [
-    "dist/index.js"
+    "dist/bundle.js"
   ],
   "repository": {
     "type": "git",
