@@ -15,14 +15,21 @@
     "url": "https://github.com/davidsa/npm-example/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter spec --require @babel/register ./library.spec.js",
+    "test:watch": "mocha --reporter spec --watch --require @babel/register ./library.spec.js",
     "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
     "prettier": "^1.15.3",
+    "sinon": "^7.2.2",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   }
