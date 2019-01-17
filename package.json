@@ -1,10 +1,4 @@
 {
-<<<<<<< Updated upstream
-  "name": "npm-example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-=======
   "name": "npm-example-david",
   "version": "1.1.0",
   "description": "This is an example on how to publish a public package to npm registry",
@@ -20,7 +14,6 @@
   "bugs": {
     "url": "https://github.com/davidsa/npm-example/issues"
   },
->>>>>>> Stashed changes
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
