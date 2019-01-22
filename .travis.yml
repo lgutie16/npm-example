@@ -1,1 +1,8 @@
-languaje:  node_js
+language: node_js
+cache:
+  yarn: true
+  directories:
+    - ~/.npm
+    - ~/.yarn
+    - node_modules
+node_js: "8.9.4"
